@@ -1,5 +1,5 @@
 ## JavaScript
-
+***disclaimer*** This resource assumes the reader knows certain principles.
 - [  ] Variables
 [Variables](#Varibles)
 - [  ] Functions, Arrow Functions, Async Fn, 
@@ -16,12 +16,13 @@
 
 ## Variables 
 
-
-
 ## Functions
+---
+querySelector() function stores a reference to an element. \
 
-querySelector() function stores a reference to an element.
-Example: Uses querySelector() to change text of h1 element.
+### Question One (Functions): {#Q-Fn1}
+Q: What does the code below do?
+A: It changes the text area in the element with id headerOne.
 
 ```html
 
@@ -46,9 +47,10 @@ selected.textContent = "Hello"
 ## Events
 
 addEventListener here listens for user click to run myFn().
-Example: Run myFn() when element with id  #headerOne is clicked. 
 
 ```javascript
+Example: Runs myFn() when element with id #headerOne is clicked. 
+
 function myFn(){
     console.log("hi")
 }
@@ -57,4 +59,10 @@ function myFn(){
 document.querySelector("#headerOne").addEventListener("click", myFn())
 
 ```
+
+### Assignment One (Events): }{#Q-Events1}
+Create an image that changes to different image when clicked.
+(HINT: Look at setAttribute function.)
+
+
 
