@@ -1,10 +1,7 @@
 ## JavaScript
 ***disclaimer*** This resource assumes the reader knows certain principles.
-- [  ] Variables
-[Variables](#Varibles)
-- [  ] Functions, Arrow Functions, Async Fn, 
-    callback fn
- [Functions](#Functions)
+- [  ] [Variables](##Varibles)
+- [  ][Functions](##Functions)
 - [  ] Objects/Arrays
 - [  ] Classes
 - [  ] Dom Manipulation
@@ -17,12 +14,8 @@
 ## Variables 
 
 ## Functions
----
-querySelector() function stores a reference to an element. \
 
-### Question One (Functions): {#Q-Fn1}
-Q: What does the code below do?
-A: It changes the text area in the element with id headerOne.
+The querySelector(element) function stores a reference to an element.
 
 ```html
 
@@ -43,6 +36,10 @@ const selected = querySelector("#headerOne")
 selected.textContent = "Hello"
 
 ```
+
+#### Question One (Functions): {#Q-Fn1}
+Q: What does the code below do?
+A: It changes the text area in the element with id headerOne.
 
 ## Events
 
