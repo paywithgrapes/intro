@@ -64,5 +64,13 @@ document.querySelector("#headerOne").addEventListener("click", myFn())
 Create an image that changes to different image when clicked.
 (HINT: Look at setAttribute function.)
 
+```javascript
 
+function openPokeball() {
+test.setAttribute("src","pokemon1.png")
+}
+const test = document.querySelector("#pokeball-picture")
+test.addEventListener("click", test => openPokeball());
+
+```
 
